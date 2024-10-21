@@ -1,0 +1,100 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    background-image: url(ga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .corps {
+        width: 400px;
+        padding: 20px;
+        margin: 50px auto;
+        background-color: #A67BC5; 
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        color: #fff;
+    }
+    
+    .container{
+    
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+    }
+    .champs{
+    
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    }
+    input[type="text"]{
+        width:8000px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+    }
+    button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    ul{
+        width: 100%;
+        list-style: none;
+        padding: 0;
+    
+    }
+    ul li{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background:black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2 4px rgba(0,0,0, 0,1);
+    }
+    ion-icon{
+    
+        font-size: 20px;
+        margin-right: 5px;
+        background:midnightblue;
+        padding: 0.5crem;
+        margin: 0;
+    color: #f1f1f1;
+    border-radius: 50%;
+    
+    }
+    
+    .delete{
+    background: crimson;
+    
+    
+    }
+    .modify{
+        background: yellow;
+        color: #333;
+    }
+    h1{
+        color:#33333333;
+        
+    }
+
+    
+    
